@@ -1,0 +1,47 @@
+ /*************** ABOUT US SECTION ***************/
+ .bg-color {
+	background-color:aqua;
+}
+.about-left img {
+	width: 100%;
+}
+.about-right {
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+.about-right h2 {
+	font-size: 35px;
+	color: black;
+	font-weight: 600;
+	margin-bottom: 10px;
+}
+.about-right h6 {
+	color: #f90505;
+	font-size: 20px;
+	margin-bottom: 25px;
+}
+.about-right p {
+	line-height: 35px;
+	font-size: 16px;
+	margin-bottom: 50px;
+	letter-spacing: 0.2px;
+	word-spacing: 0.5px;
+}
+
+.about-right table tr td {
+	padding: 10px;
+}
+@media screen and (max-width:768px) {
+	.about-right table tr td,
+	.about-right table tr th {
+		padding: 10px 0px;
+		font-size: 13px;
+	}
+}
+@media screen and (max-width:500px) {
+	.about-right table tr td,
+	.about-right table tr th {
+		padding: 10px;
+		font-size: 16px;
+	}
+}
